@@ -1,0 +1,81 @@
+.header {
+	background-color: darkblue;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: -8px;
+	color: white;
+	padding: 15px;
+	font-family: sans-serif;
+}
+
+.nbaimg {
+  width: 100px;       /* desired width */
+  height: 100px;      /* desired height */
+  overflow: hidden;   /* hides parts outside the box */
+  border-radius: 50%;  /* optional, makes it a circle */
+  position: absolute;
+  left: 1750px;
+  top: 5px;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+#username {
+	position: relative;
+	top: 100px;
+
+}
+
+#password {
+	position: relative;
+	top: 100px;
+
+}
+
+#login {
+	position: relative;
+	top: 100px;
+	padding: 10px 20px;
+  border: none;
+  background: #222;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input {
+  width: 250px;               /* set a comfortable width */
+  padding: 10px 12px;         /* space inside the box */
+  margin: 5px 0;              /* space between inputs */
+  border: 1px solid #ccc;     /* subtle border */
+  border-radius: 5px;         /* rounded corners */
+  font-size: 16px;            /* readable text */
+  outline: none;              /* remove default blue outline */
+  transition: all 0.2s ease; /* smooth hover/focus effects */
+}
+
+.backbtn {
+	position: relative;
+	top: 20px;
+	left: 850px;
+	padding: 10px 20px;
+  border: none;
+  background: #222;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+#account-info {
+  position: absolute;
+  top: 400px;     /* distance from top of page or relative container */
+  left: 750px;     /* distance from left */
+  width: 300px;
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}

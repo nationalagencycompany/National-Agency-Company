@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "username": "sbappy",
+      "password": "snaggybckt2",
+      "account": {
+        "accountNumber": "IO144329",
+        "accountHolder": "Scott Bappy",
+        "balance": 12281200028.50,
+        "accountType": "Business"
+      }
+	},
+    {
+      "username": "sbucket",
+      "password": "password",
+      "account": {
+        "accountNumber": "IO456775",
+        "accountHolder": "James Snaggy Bucket III",
+        "balance": 4433170.00,
+        "accountType": "Savings"
+      }
+    }
+  ]
+}

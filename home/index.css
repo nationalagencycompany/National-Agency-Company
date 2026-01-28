@@ -1,0 +1,119 @@
+.header {
+	background-color: darkgrey;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: -8px;
+	
+	padding: 10px;
+}
+
+body {
+	background-color: lightgrey;
+	font-family: sans-serif;
+}
+
+.agency-btns {
+	position: relative;
+	left: 1200px;
+	bottom: 50px;
+}
+
+.cra-btn {
+  background-color: darkblue;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+.faaa-btn {
+  background-color: darkblue;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.other-btn {
+  background-color: darkblue;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.nba-btn {
+  background-color: darkblue;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.officeimg {
+	width: 500px;
+	height: 500px;
+  display: flex;
+  align-items: center;
+	position: relative;
+	right: 300px;
+}
+
+#cookie-popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.cookie-content {
+  background: #fff;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.cookie-content {
+  margin-bottom: 15px;
+  border-radius: 12px;
+}
+
+#accept-cookies {
+  padding: 10px 20px;
+  border: none;
+  background: #222;
+  color: white;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.cookie-content button:hover {
+  background: #444;
+}
